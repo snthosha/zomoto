@@ -1,6 +1,7 @@
 
 .main{
     overflow:auto;
+    overflow-x: hidden;
 }
 .gettheapp{
     margin-top: -29%;
@@ -10,7 +11,7 @@
 }
 .backsideimage{
     height: 440px;
-    width: 100vw;
+    width: 99vw;
     margin-top: -8px;
     margin-left: -1%;
 }
@@ -37,19 +38,12 @@
     color:#fff;
     font-size:x-large;
 }
-.mainborder{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 24%;
-    margin-top: 3%;  
-}
-.location{
-    margin-left:2px;
-    margin-right:2px;
-    margin-top:auto;
-    margin-bottom: auto;
-    width:30%;
+.locatin{
+    border:1px solid white;
+    background-color: #fff;
+    width:800px;
+    height:26px;
+    z-index: 10;  
 }
 .imageparent{
     margin-top: 11%;
@@ -73,6 +67,7 @@
     margin-left:auto;
     margin-right:auto;
     z-index: 2;
+}
 .text1{
     background-color: white;
     border: 1px solid white;
@@ -83,31 +78,58 @@
 .pad{
     padding-left:20px;
     font-weight: bold;
+    size:20px;
 }
+.pad1{
+    padding-left:20px;
+    size:15px;
+}
+.collections{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 18%;
+    margin-top: 6%;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.undercollections{
+    margin-left:18%;
+    margin-top:1%;
+    font-size: 20px;
+}
+.red{
+    margin-left:5%;
+    color:red;
+    font-size:20px;
+    opacity:0.6
+}
+.imageparent100{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 8%;
+    margin-top:0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.image{
+    width:266px;
+    height:320px;
+}
+.image1text{
+    margin-left: 8%;
+    color: #fff;
+    margin-top: -28%;
+    font-size: 18px;
+}
+.places{
+    margin-left: 8%;
+    color: #fff;
+    margin-top: -4%;
+    font-size: 14px;
 
 }
