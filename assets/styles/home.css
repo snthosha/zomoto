@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 .main{
     overflow:auto;
     overflow-x: hidden;
@@ -38,12 +41,30 @@
     color:#fff;
     font-size:x-large;
 }
-.locatin{
-    border:1px solid white;
+.location{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
     background-color: #fff;
-    width:800px;
-    height:26px;
-    z-index: 10;  
+    width: 694px;
+    height: 43px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-left: 14px;
+}
+.singleborder{
+    border-left: 1px solid rgba(0,0,0,0.5);
+    height: 28px;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.searchbar{
+    margin-left: auto;
+    margin-right: auto;
+    color:rgba(0,0,0,0.5);
 }
 .imageparent{
     margin-top: 11%;
