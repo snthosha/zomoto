@@ -154,3 +154,80 @@
     font-size: 14px;
 
 }
+.undercollection{
+    margin-left: 17%;
+    font-weight: 300;
+    font-size: 34px;
+    margin-top: 7%;
+}
+.localities{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 80px 80px 80px;
+    gap:30px;
+    justify-content:center;
+    align-content: center;
+}
+.ch1{
+    display: inline-block;
+    border:1px solid rgba(0,0,0,0.5);
+    border-radius:10px;
+    padding-left: 10px;
+    padding-top:0px;
+}
+.num{
+    margin-top:-8px;
+}
+.underzomato4{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    gap:40px;
+}
+.zomatoimage2{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 174px;
+    width: 200px;
+    margin-left: 34%;
+}
+.besidezomato{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 56px;
+}
+.buttonbox{
+    display:flex;
+    flex-direction: row;
+    gap:32px;
+}
+.Email{
+    border: 1px solid black;
+    width: 223px;
+    height: 40px;
+    margin-left: 8px !important;
+    margin-top: 28px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.shareapp{
+    color: white;
+    background-color: red;
+    width: 106px;
+    height: 40px;
+    margin-top: 27px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.imageflex{
+    display: flex;
+    flex-direction: row;
+}
+.google{
+    width:188px;
+    height:50px;
+}
+
